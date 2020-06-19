@@ -86,3 +86,25 @@ input[type=range] {
   border: none;
   
 }
+
+.conteiner{
+  display: contents;
+}
+
+
+@media (max-width: 550px) {
+  .conteiner{
+    display: initial;
+  }
+
+  .controllers{
+    margin-left: 170px;
+  }
+
+  #player{
+    margin-left: 20px
+  }
+  
+}
+
+
